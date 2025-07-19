@@ -1,6 +1,6 @@
 # -----------------------------------------------------------------------------
 # File: utils.py
-# ACS School Project 1 - Simple Maze Example
+# ACS School Project - Simple Maze Example
 # Organization: THUAS (The Hague University of Applied Sciences)
 # Location: Delft
 # Date: July 2025

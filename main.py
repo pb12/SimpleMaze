@@ -1,12 +1,12 @@
 # -----------------------------------------------------------------------------
 # File: main.py
-# ACS School Project 1 - Simple Maze Example
+# ACS School Project - Simple Maze Example
 # Organization: THUAS (The Hague University of Applied Sciences)
 # Location: Delft
 # Date: July 2025
 # -----------------------------------------------------------------------------
 
-from rooms import enterCorridor, enterLobby, enterClassroom2015, enterProjectRoom
+from rooms import enterCorridor, enterLobby, enterClassroom2015, enterProjectRoom3
 
 print("🎓 Welcome to the School Maze!")
 print("🏫 Your goal is to explore all important rooms in the school.")
@@ -18,7 +18,7 @@ state = {
     "previous_room": "corridor",
     "visited": {
         "classroom2015": False,
-        "projectRoom1": False
+        "projectRoom3": False
     },
     "inventory": []
 }
@@ -35,8 +35,8 @@ while True:
     elif current == "classroom2015":
         state["current_room"] = enterClassroom2015(state)
 
-    elif current == "projectRoom1":
-        state["current_room"] = enterProjectRoom(state)
+    elif current == "projectRoom3":
+        state["current_room"] = enterProjectRoom3(state)
 
     else:
         print("Unknown room. Exiting game.")

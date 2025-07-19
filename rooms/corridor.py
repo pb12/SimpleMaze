@@ -1,6 +1,6 @@
 # -----------------------------------------------------------------------------
 # File: corridor.py
-# ACS School Project 1 - Simple Maze Example
+# ACS School Project - Simple Maze Example
 # Organization: THUAS (The Hague University of Applied Sciences)
 # Location: Delft
 # Date: July 2025
@@ -13,7 +13,7 @@ def enterCorridor(state):
     print("🏫 Doors lead to various rooms.")
     print("🎒 Inventory:", state["inventory"])
 
-    choices = ["classroom2015", "projectRoom1", "lobby"]
+    choices = ["classroom2015", "projectRoom3", "lobby"]
     nextRoom = chooseNextRoom(choices)
 
     if nextRoom:
