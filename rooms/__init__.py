@@ -7,7 +7,7 @@
 # -----------------------------------------------------------------------------
 
 from .corridor import enterCorridor
-from .lobby import enterLobby
+from .studylandscape import enterStudyLandscape
 from .classroom2015 import enterClassroom2015
 from .projectroom3 import enterProjectRoom3
 from .utils import chooseNextRoom
