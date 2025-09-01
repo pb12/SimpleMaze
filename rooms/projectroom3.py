@@ -47,7 +47,7 @@ def enterProjectRoom3(state):
         """List available commands."""
         print("\nAvailable commands:")
         print("- look around         : Examine the room for clues.")
-        if not state["visited"]["projectRoom3"]:
+        if not state["visited"]["projectroom3"]:
             print("- answer <fruit>      : Solve the riddle about the fruit.")
         print("- go corridor / back  : Leave the room and return to the corridor.")
         print("- ?                   : Show this help message.")
